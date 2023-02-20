@@ -4,7 +4,7 @@ services:
     restart: always
     image: postgres:latest
     environment:
-    - PGUSER=postgres
+    - POSTGRES_USER=postgres
     - POSTGRES_PASSWORD=password
     - POSTGRES_DB=flight
     ports:
